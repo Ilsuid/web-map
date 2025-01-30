@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Albania Interactive Map</title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <h1>Explore Albania</h1>
+        </header>
+
+
+        <div class="instructions">Click any region to add photos/videos!</div>
+
+        <div class="map-container">
+            <svg id="albania-map" viewBox="0 0 800 600">
+                <!--Duhet te zevendesohen kto-->
+                <path class="region" data-region="Tirana" d="M200 300"/>
+                <path class="region" data-region="Durres" d="M2 50 280"/>
+                <path class="region" data-region="Elbasan"d="M3 40 444"/>
+            </svg>  
+        </div>
+              
+        <div id="upload-modal" class="modal">
+            <h2>Customize Your Media</h2>
+            
+        </div>
+    </body>
+</html>
